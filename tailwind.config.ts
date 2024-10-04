@@ -1,12 +1,13 @@
-
 import type { Config } from "tailwindcss";
 import flowbitePlugin from "flowbite/plugin";
+import defaultTheme from "tailwindcss/defaultTheme";
 
 export default {
     content: ["./src/**/*.{html,js,svelte,ts}", "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}"],
     darkMode: "selector",
 theme: {
         extend: {
+            fontFamily: {sans: ["Quicksand", ...defaultTheme.fontFamily.sans]},
             colors: {
                 // flowbite-svelte
                 primary: {
