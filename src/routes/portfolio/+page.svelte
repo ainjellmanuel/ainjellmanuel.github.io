@@ -13,7 +13,7 @@ const images = [
 ];
 </script>
 
-<div class="dark:text-orange-300">
+<div class="dark:text-red-50">
   <div class=" flex justify-center">
     <h1 class="text-4xl font-bold ">My Collection</h1>
   </div>
